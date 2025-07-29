@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.body {
+    font-family: 'Inter', sans-serif;
+}
+
+.blogContainer {
+    background-color: #eae7d5;
+    width: 900px;
+    border-radius: 14px;
+    margin: 60px auto;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.blog img {
+    border-radius: 8px;
+}
+
+.NewLable {
+    background-color: #55555581;
+    width: fit-content;
+    border-top-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.0125rem;
+    color: #ECE8D6;
+}
+
+.buttomBlog {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.625rem;
+}
+
+.BlogTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.BlogData {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.BlogDescription {
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-top: 2rem;
+}
