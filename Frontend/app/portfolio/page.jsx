@@ -21,9 +21,11 @@ export default function PortfolioPage() {
     return (
         <div className={styles.body}>
             <p className={styles.Title}>Products</p>
-            {products.map((product, i) => (
-                <Product key={i} product={product}/>
-            ))}
+            <div className={styles.products}>
+                {products.map((product, i) => (
+                    <Product key={i} product={product}/>
+                ))}
+            </div>
         </div>
     )
 }

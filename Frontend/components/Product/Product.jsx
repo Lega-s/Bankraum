@@ -4,13 +4,14 @@ export default function Product({ product }) {
 
 
     return (
-        
-        <div className={styles.body}>
-            <div className={styles.product}>
-                <p className={styles.BlogTitle}>{product.Name}</p>
+        <div className={styles.product}>
+            <div className={styles.left}>
                 <img src={product.Image} alt="" />
-                <p className={styles.BlogDescription}>{product.Description}</p>
-                {product.available ? (<p>✅</p>) : ("")}
+            </div>
+            <div className={styles.right}>
+                <p className={styles.BlogTitle}>{product.Name}</p>
+                <p>{product.Description}</p>
+                {product.available ? ("") : (<p className={styles.SoldLable}>verkauft</p>)}
             </div>
         </div>
     )

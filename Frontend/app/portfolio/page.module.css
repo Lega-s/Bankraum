@@ -7,3 +7,9 @@
     margin: 0 auto;
     font-size: 28px;
 }
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -6,7 +6,7 @@
 
 .blogContainer {
     background-color: #eae7d5;
-    width: 900px;
+    width: 700px;
     border-radius: 14px;
     margin: 60px auto;
 }
@@ -14,7 +14,7 @@
 .blog {
     display: flex;
     flex-direction: column;
-    padding: 80px;
+    padding: 20px;
 }
 
 .blog img {
