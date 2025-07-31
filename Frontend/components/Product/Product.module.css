@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.product {
+    position: relative;
+    display: flex;
+    width: fit-content;
+    font-family: 'Inter', sans-serif;
+    margin: 40px;
+    border-left: solid 2px #7D6D61;
+    border-right: solid 2px #7D6D61;
+}
+
+.left {
+    max-width: 400px;
+    padding: 20px;
+}
+
+.left img {
+    width: 350px;
+    height: auto;
+}
+
+.right {
+    max-width: 400px;
+    padding: 20px;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.BlogTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.SoldLable {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgb(218, 71, 71);
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+@media (max-width: 1760px) {
+
+    .product {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .SoldLable {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: rgb(218, 71, 71);
+        color: white;
+        padding: 5px 10px;
+        font-weight: bold;
+    }
+}
